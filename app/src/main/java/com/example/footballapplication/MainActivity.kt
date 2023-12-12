@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity() {
         if (userIsLoggedIn) {
 
             //Chargement de la page principale
-
             setupMainContent()
 
             Log.i("FootBall APP", "Utilisateur Connecté")
@@ -68,7 +67,6 @@ class MainActivity : AppCompatActivity() {
         } else {
 
             //Formulaire de connection
-
             showLoginFragment()
             Log.i("FootBall APP", "Utilisateur Non Connecté")
             Log.i("FootBall APP", "Chargement de la page d'accueil")
